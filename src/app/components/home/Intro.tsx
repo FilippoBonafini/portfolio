@@ -3,13 +3,14 @@ import Image from "next/image"
 
 export default function Intro() {
     return (
-        <section className="container mx-auto gap-10 lg:grid lg:grid-cols-2 px-4 flex-col-reverse flex">
+        <section className="container mx-auto gap-10 lg:grid lg:grid-cols-2 px-4 flex-col flex items-center">
             {/* CONTENUTO  */}
             <div>
                 {/* TESTI  */}
-                <div className="lg:mt-20">
+                <div>
                     <h1 className="md:text-[90px] text-[70px] font-bold leading-[0.8]">FILIPPO BONAFINI</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat eaque impedit repudiandae soluta optio aliquid at voluptates. Quia minima exercitationem, maiores harum magni, provident labore impedit neque, repudiandae blanditiis ducimus!</p>
+                    <h2 className="text-[40px] md:text-[50px]">Full Stack developer</h2>
+                    <p className="text-[24px] mt-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat eaque impedit repudiandae soluta optio aliquid at voluptates. Quia minima exercitationem, maiores harum magni, provident labore impedit neque, repudiandae blanditiis ducimus!</p>
                 </div>
                 {/* CALL TO ACTION  */}
                 <div>
