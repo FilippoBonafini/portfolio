@@ -3,10 +3,23 @@ import Image from "next/image"
 
 export default function Intro() {
     return (
-        <section className="grid grid-cols-1 container mx-auto gap-8 md:grid-cols-2 px-4">
-            <div className="bg-red-200">TEXT</div>
-            <div className="">
-                <Image src='https://picsum.photos/600/600' width={600} height={600} alt="filippo-bonafini" />
+        <section className="container mx-auto gap-10 lg:grid lg:grid-cols-2 px-4 flex-col-reverse flex">
+            {/* CONTENUTO  */}
+            <div>
+                {/* TESTI  */}
+                <div className="lg:mt-20">
+                    <h1 className="md:text-[90px] text-[80px] font-bold leading-[0.8]">FILIPPO BONAFINI</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat eaque impedit repudiandae soluta optio aliquid at voluptates. Quia minima exercitationem, maiores harum magni, provident labore impedit neque, repudiandae blanditiis ducimus!</p>
+                </div>
+                {/* CALL TO ACTION  */}
+                <div>
+                    <Link href="/contatti">Contatti</Link>
+                </div>
+            </div>
+
+            {/* ILLUSTRAZIONE */}
+            <div>
+                <Image src='https://picsum.photos/740/610' width={740} height={610} alt="filippo-bonafini" />
             </div>
         </section>
     )
