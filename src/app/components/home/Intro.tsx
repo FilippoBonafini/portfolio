@@ -8,7 +8,7 @@ export default function Intro() {
             <div>
                 {/* TESTI  */}
                 <div className="lg:mt-20">
-                    <h1 className="md:text-[90px] text-[80px] font-bold leading-[0.8]">FILIPPO BONAFINI</h1>
+                    <h1 className="md:text-[90px] text-[70px] font-bold leading-[0.8]">FILIPPO BONAFINI</h1>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat eaque impedit repudiandae soluta optio aliquid at voluptates. Quia minima exercitationem, maiores harum magni, provident labore impedit neque, repudiandae blanditiis ducimus!</p>
                 </div>
                 {/* CALL TO ACTION  */}
