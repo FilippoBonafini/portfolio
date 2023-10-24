@@ -1,4 +1,8 @@
+// STILE 
 import './globals.css'
+
+// COMPONENTI 
+import Header from './components/Header'
 
 export default function RootLayout({
   children,
@@ -8,6 +12,7 @@ export default function RootLayout({
   return (
     <html lang="it">
       <body>
+        <Header />
         {children}
       </body>
     </html>
